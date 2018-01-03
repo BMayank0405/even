@@ -32,7 +32,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
 
     <title>India's first Women Only E-commerce logistics company | Even Cargo</title>
-    <link rel="preconnect" href="//evencargo.in">
+    <link rel="preconnect" href="">
     <link rel="preconnect" href="//fonts.google.com/">
     <link rel="preconnect" href="www.youtube.com"/>
 
@@ -44,8 +44,48 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="./css/common.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="./css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  
+
+  <script type="application/ld+json">
 	{
+		"@context": "http://schema.org/",
+		"@type": "Organization",
+		"url":"https://evencargo.in",
+		"description": "At EvenCargo we believe in uplifting the barriers of unemployment through skill development of women to increase the participation of women workforce in labour market.",
+		 "address": {
+		   "@type": "PostalAddress",
+		   "addressCountry" : "India",
+		   "addressLocality": "Saket",
+		   "addressRegion" :"New Delhi"
+		   "postalCode": "110030",
+		   "streetAddress": "630 , Lane no 4, Westend Marg"
+		 },
+		 "sameAs" : [ 
+		        "https://www.facebook.com/evencargo/",
+		        "https://plus.google.com/u/0/107836541202512523186",
+		        "https://twitter.com/EvenCargo"
+		  ],
+		  "aggregateRating": {
+		    "@type": "AggregateRating",
+		    "ratingValue": "4.9",
+		    "ratingCount": "5"
+		  },
+		 "email": "contact@evencargo.in",
+		 "logo": {
+		    "@type": "ImageObject",
+		    "url": "http://evencargo.in/logo.webp",
+		    "width": "386",
+		    "height": "60"
+		   },
+		 "founder" : {
+		 	"@type": "Person",
+		 	"name": "Yogesh Kumar"
+		 },	
+		 "foundingDate" : "2013",
+		 "name": "Even Cargo",
+		 "telephone": "(+91)8588801095"
+	}
+</script>
+
 </head>
 
 
@@ -440,7 +480,7 @@
 require_once ('./footer.php'); 
 ?>
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
 
