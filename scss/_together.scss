@@ -1,0 +1,109 @@
+.together {
+	@supports(display:grid){
+		display              : grid;
+		grid-template-columns: 1fr;
+		@media screen and ( min-width: 700px ) and (max-width: 1200px) {
+			grid-template-rows   : 1fr 1fr 5fr;
+			width: 80%;
+		}
+		@media screen and (min-width: 550px) and (max-width: 699px) {
+			grid-template-rows   : 0.2fr 0.2fr 1fr;
+			width:90%;
+		}
+		@media screen and ( max-width: 549px ) {
+			grid-template-rows   : 0.3fr 0.3fr 1fr;
+			width:90%;
+		}
+		@media screen and (min-width: 1201px) {
+			grid-template-rows   : 1fr 1fr 5fr;
+			width:70%;
+		}
+		justify-items        : center;	
+		align-items          : center;
+		justify-content      : center;
+		align-content        : space-around;
+		grid-row-gap      : 6px;
+	}
+	@media screen and ( min-width: 700px ) {
+		margin-bottom: 40px;
+	}
+	margin : 0 auto;
+	& > h3 {
+		grid-column: 1;
+		grid-row   : 1 / span 1;
+	}
+	& > p {
+		grid-column: 1;
+		grid-row   : 2 / span 1;
+		width      : 80%;
+		@media screen and (max-width: 700px) {
+			margin-bottom : 10px ;
+			width:90%;
+			
+		}
+		& > span {
+            font-weight: 400;
+        }
+	}
+	& > article {
+		grid-column: 1;
+		grid-row   : 3 / span 1;
+	}
+}
+
+.img-container {
+	@supports(display:grid){
+		display              : grid;
+		@media screen and ( min-width: 700px ) {
+			grid-template-columns: 2fr 1fr;
+			grid-template-rows   : 1fr 1fr;
+		}
+		@media screen and ( max-width: 700px ) {
+			grid-template-columns: 0.9fr 1fr;
+			grid-template-rows   : 0.5fr 0.5fr;
+		}
+		justify-items        : center;	
+		align-items          : center;
+		justify-content      : center;
+		align-content        : space-around;
+		grid-column-gap      : 20px;
+		grid-row-gap         : 10px;
+	}
+	width:80%;
+	@media screen and (max-width: 700px){
+		width:90%;
+	}
+}
+.img-1 {
+	@media screen and ( min-width: 700px ) {
+		grid-column: 1 / span 1;
+		grid-row   : 1 / span 2;
+	}
+	@media screen and ( max-width: 700px ) {
+		grid-column: 1 / span 2;
+		grid-row   : 1 / span 1;
+	}
+}
+
+.img-2{
+	@media screen and ( min-width: 700px ) {
+		grid-column: 2 / span 1;
+		grid-row   : 1 / span 1;
+		transform:translateY(6px);
+	}
+	@media screen and ( max-width: 700px ) {
+		grid-column: 1 / span 1;
+		grid-row   : 2 / span 1;
+	}
+}
+.img-3 {
+	@media screen and ( min-width: 700px ) {
+		grid-column: 2 / span 1;
+		grid-row   : 2 / span 1;
+		transform:translateY(10px);
+	}
+	@media screen and ( max-width: 700px ) {
+		grid-column: 2 / span 1;
+		grid-row   : 2 / span 1;
+	} 
+}

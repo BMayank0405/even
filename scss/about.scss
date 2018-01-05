@@ -1,0 +1,15 @@
+
+@import 'variables';
+
+// slider height to full width
+.slider{
+	min-height: 85vh !important;
+	height    : 100% !important;
+	& .slides {
+		min-height: 85vh !important;
+		height    : 100% !important;
+	}
+}
+
+//css for main content
+@import 'aboutMain';

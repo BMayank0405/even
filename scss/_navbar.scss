@@ -1,0 +1,54 @@
+// navbar part
+.transparent {
+    z-index: 100;
+    box-shadow: none !important;
+    margin-left: 10%;
+}
+
+.brand-logo{
+    margin-top:10px;
+}
+
+.nav-wrapper>ul:first-of-type {
+    // to move menu to right
+    transform: translate(30%, 10px);
+    &>li {
+        &>a {
+            text-transform: uppercase;
+            color: $menu_color;
+            cursor: pointer;
+            letter-spacing: 0.05em !important;
+            word-spacing: 0.2em !important;
+            font: {
+                family: $heading;
+                weight: bold;
+                size: 1.25rem;
+            }
+        }
+        &:hover a {
+            color: $menu_hover;
+            transform: scale3d(1, 1, 2) !important;
+        }
+
+    }
+}
+
+
+
+#sidenav-overlay {
+    z-index:10;
+}
+
+.side-nav {
+    background-color: rgba(0,0,0,0.5);
+    &>li > a {
+        text-transform: uppercase;
+        font: {
+            family: $heading;
+            weight: bold;
+            size: 1.25rem;
+        }
+        color:$menu_color;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,15 @@
+@import 'variables';
+
+
+.background-slider > img {
+	width     : 100%;
+	min-height: 85vh !important;
+	height    : 100% !important;
+}
+
+@import 'openPost';
+
+@import 'together';
+
+//css for main content
+@import 'carrForm';

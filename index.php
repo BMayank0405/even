@@ -107,7 +107,7 @@
       </article>
       
       <?php
-        require_once('./navbar.php');
+        require_once './navbar.php';
       ?>
       <!-- nav bar -->
         
@@ -123,7 +123,7 @@
           </picture>
 
         <picture>
-          <img src="./img/aboutus/sifhead.png" alt="" class="responsive-img"/>
+      <img src="./img/aboutus/sifhead.png" alt="" class="responsive-img"/>
         </picture>
         <picture>
           <img src="./img/aboutus/tisshead.png" alt="" class="responsive-img"/>
@@ -141,7 +141,7 @@
         
         <div class="about-img">
             <picture>
-              <source srcset="de2.webp" type="image/webp" class="responsive-img" alt="parcel delivery woman delivering parcel">
+              <source srcset="de2.webp" type="image/webp" class="responsive-img" alt="parcel delivery woman delivering    parcel">
               <source srcset="de2.png" type="image/png" class="responsive-img" alt="parcel delivery woman delivering parcel">
               <img src="de2.webp" class="responsive-img" alt="parcel delivery woman delivering parcel" type="image/webp">  
             </picture>
@@ -472,7 +472,7 @@
     </main>
 
   <?php 
-  require_once ('./footer.php'); 
+  require_once './footer.php';
   ?>
     <!--  Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
