@@ -100,8 +100,8 @@
 
       <article class="background-slider" style="max-height:95vh !important;">
           <video loop muted preload="auto" poster="poster.jpg" class="responsive-video"  autoplay="autoplay">
-            <source  src="vp9.mp4" type="video/mp4">
-            <source  src="vp9.webm" type="video/webm"> 
+            <!-- <source  src="vp9.mp4" type="video/mp4">
+            <source  src="vp9.webm" type="video/webm">  -->
             <img src="./img/Anjali-Naaz-Seema.jpg" alt="A Delivery Girl delivering parcels to the customers.Training of girls with Honda Traffic Training Park.">
           </video>
       </article>
@@ -141,9 +141,10 @@
         
         <div class="about-img">
             <picture>
-              <source srcset="de2.webp" type="image/webp" class="responsive-img" alt="parcel delivery woman delivering    parcel">
+              <!-- <source srcset="de2.webp" type="image/webp" class="responsive-img" alt="parcel delivery woman delivering    parcel">
               <source srcset="de2.png" type="image/png" class="responsive-img" alt="parcel delivery woman delivering parcel">
-              <img src="de2.webp" class="responsive-img" alt="parcel delivery woman delivering parcel" type="image/webp">  
+              <img src="de2.webp" class="responsive-img" alt="parcel delivery woman delivering parcel" type="image/webp">   -->
+              <img class="responsive-img" alt="parcel delivery woman delivering parcel" type="image/webp"/>
             </picture>
             
         </div>

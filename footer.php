@@ -92,15 +92,31 @@
     </div>
   </footer> 
      <script>
+      var head = document.getElementsByTagName('head')[0];
+
+      // Save the original method
+      var insertBefore = head.insertBefore;
+
+      // Replace it!
+      head.insertBefore = function (newElement, referenceElement) {
+    
+      if (newElement.href && newElement.href.indexOf('https://fonts.googleapis.com/css?family=Roboto') === 0) {
+      
+          console.info('Prevented Roboto from loading!');
+          return;
+      }
+    
+      insertBefore.call(head, newElement, referenceElement);
+};
       function initMap() {
       
-        var uluru = {lat: 28.516668, lng: 77.198741};
+        var even = {lat: 28.516668, lng: 77.198741};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
-          center: uluru
+          center: even
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: even,
           map: map
         });
       }
