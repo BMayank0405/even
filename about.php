@@ -80,8 +80,8 @@
 		</article>
 	
 		<?php 
-		require_once('./navbar.php');
-		?>
+        require_once './navbar.php';
+        ?>
 
 		<!-- heading -->
 		<header class="main-heading">
@@ -221,10 +221,11 @@ Karen is passionate about women and children issues.</p>
   </main>
 
 	<?php 
-		require_once('./footer.php');
-	?>
+        require_once './footer.php';
+    ?>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+</html>

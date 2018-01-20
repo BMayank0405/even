@@ -100,8 +100,8 @@
 
       <article class="background-slider" style="max-height:95vh !important;">
           <video loop muted preload="auto" poster="poster.jpg" class="responsive-video"  autoplay="autoplay">
-            <!-- <source  src="vp9.mp4" type="video/mp4">
-            <source  src="vp9.webm" type="video/webm">  -->
+            <source   type="video/mp4">
+            <!-- <source  src="vp9.webm" type="video/webm">  -->
             <img src="./img/Anjali-Naaz-Seema.jpg" alt="A Delivery Girl delivering parcels to the customers.Training of girls with Honda Traffic Training Park.">
           </video>
       </article>
@@ -149,7 +149,11 @@
             
         </div>
         <div class="about-text" role="heading">
-            <p></p>
+            <p><span><b>E</b>ven</span>
+                <span><b>C</b>argo</span>
+                is a social enterprise that <strong>employs women</strong> from resource poor communities and trains them for employment opportunities with the major e-commerce companies.
+              <br/><br/>         
+              Our focus is to overcome the barriers of unemployment through <strong>skill development of women</strong> to increase the participation of women workforce in labour market.</p>
           <span>
             <a href="about.php" class="box-button">See More</a>
           </span>
@@ -479,6 +483,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script src="js/init.js"></script>
-    <script src="./app.js"></script>
+    <script src="./app.js" async defer></script>        
     </body>
   </html>

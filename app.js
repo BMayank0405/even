@@ -1,22 +1,33 @@
 (function () {
-   'use strict';
-   var starting = "<span><b>E</b>ven</span><span><b>C</b>argo</span>is a social enterprise that < strong > employs women</strong > from resource poor communities and trains them for employment opportunities with the major e - commerce companies.<br/> <br/>Our focus is to overcome the barriers of unemployment through < strong > skill development of women</strong >";
-   var about_us = " to increase the participation of women workforce in labour market.";
+      'use strict';
 
-   var about_img = $('.about-img > img');
-   fetch('./de2.webp')
-      .then(function (response) {
-         if (response.ok) return response.blob;
-         throw new Error('NEtwork error');
-      })
-      .then(function (myBlob) {
-         var objURL = URL.createObjectURL(myBlob);
-         about_img.src = objURL;
-      })
-      .catch(function (error) {
-         console.log(`problem ${error.message}`);
-      });
+      var processStatus = response => {
+            if (response.status === 200 || response.status === 0) {
+                  return Promise.resolve(response)
+            } else {
+                  return Promise.reject(new Error('Error loading: ' + url))
+            }
+      };
+
+      var parseBlob = response => {
+            return response.blob();
+      };
+
+      fetch('de2.webp')
+            .then(processStatus)
+            .then(parseBlob)
+            .then(myBlob => {
+                  var objURL = URL.createObjectURL(myBlob);
+                  $(".about-img > picture > img ")[0].src = objURL;
+            });
+
+      fetch('vp9.mp4')
+            .then(processStatus)
+            .then(parseBlob)
+            .then(myBlob => {
+                  var objURL = URL.createObjectURL(myBlob);
+                  $(".background-slider > video > source")[0].src = objURL;
+            })
 
 
-   $('.about-text > p').textContent = about_us;
 })();

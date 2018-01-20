@@ -100,9 +100,7 @@
       // Replace it!
       head.insertBefore = function (newElement, referenceElement) {
     
-      if (newElement.href && newElement.href.indexOf('https://fonts.googleapis.com/css?family=Roboto') === 0) {
-      
-          console.info('Prevented Roboto from loading!');
+      if (newElement.href && newElement.href.indexOf('https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/fonts/roboto/Roboto-Regular.woff2') === 0) {
           return;
       }
     
