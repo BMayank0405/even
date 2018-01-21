@@ -72,69 +72,6 @@ body {
     -webkit-transform: scale3d(1, 1, 2) !important;
             transform: scale3d(1, 1, 2) !important; }
 
-.box-button {
-  position: relative;
-  vertical-align: middle;
-  color: #4c82c9;
-  display: inline-block;
-  height: 60px;
-  background-color: transparent;
-  line-height: 60px;
-  text-align: center;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding: 0 20px;
-  cursor: pointer;
-  border: 2px solid #4c82c9;
-  transition: 0.5s; }
-  .box-button::after {
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    border-top: 2px solid #fb8d2d;
-    border-right: 2px solid #fb8d2d;
-    -webkit-transform-origin: 100% 0%;
-            transform-origin: 100% 0%; }
-  .box-button::before {
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    border-bottom: 2px solid #fb8d2d;
-    border-left: 2px solid #fb8d2d;
-    -webkit-transform-origin: 0 100%;
-            transform-origin: 0 100%; }
-  .box-button:hover {
-    border: 3px solid rgba(76, 130, 201, 0);
-    background-color: transparent;
-    color: #fb8d2d;
-    -webkit-transform: scale3d(1, 1, 2) !important;
-            transform: scale3d(1, 1, 2) !important; }
-
-.box-button:hover::after,
-.box-button:hover::before {
-  -webkit-transform: scale(1);
-          transform: scale(1); }
-
 #sidenav-overlay {
   z-index: 10; }
 
@@ -177,17 +114,10 @@ this file contains css for all the front image and video which is to be shown as
   grid-row: 1 / span 4;
   min-height: 85vh !important;
   height: 100% !important;
-  
-  @media screen and (min-width:1200px){
-  	max-height:94vh;
-  }
-  
   min-width: 100% !important;
   width: 100% !important;
   -webkit-filter: brightness(45%);
-          filter: brightness(45%);
-          
-           }
+          filter: brightness(45%); }
 
 .first-sight > nav {
   grid-column: 1;
@@ -204,21 +134,17 @@ this file contains css for all the front image and video which is to be shown as
     word-spacing: 0.27em !important;
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 5.6rem;
+    font-size: 6rem;
     font-variant: small-caps;
     text-align: center;
     width: 100%;
     -webkit-transform: scaleY(1.05);
             transform: scaleY(1.05);
-    color: #fb8d2d; }
+    text-shadow: 1px 0 0 rgba(253, 253, 253, 0.38), 0 1px 1px rgba(208, 208, 208, 0.35), -1px 0 1px rgba(236, 235, 235, 0.35), 0 -1px 1px rgba(243, 241, 241, 0.38);
+    color: rgba(255, 255, 255, 0.5); }
     @media screen and (max-width: 800px) {
       .first-sight > .main-heading > h1 {
         font-size: 2rem; } }
-        
-#map {
-        height: 350px;
-        background-color: grey;
-}        
 
 video {
   vertical-align: middle;

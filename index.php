@@ -169,18 +169,16 @@
           <div class="center">
             <figure>
               <picture>
-                  <!-- <source srcset="EC_girl-01.webp" type="image/webp" media="(min-width:701px)">
-                  <source srcset="center.png" type="image/png" media="(min-width:701px)"> -->
-                  <img src="index-page-sprite.png" alt="" />
+                  <source srcset="EC_girl-01.webp" type="image/webp" media="(min-width:701px)">
+                  <source srcset="center.png" type="image/png" media="(min-width:701px)">
               </picture>  
             </figure>
           </div>
           <div class="deg0">
             <figure>
               <picture>
-                <!-- <source srcset="EC_girl-01.webp" type="image/webp" alt="Girls delivering parcels timely to customers">
-                <source srcset="EC_girl-01.png" type="image/png" alt="Girls delivering parcels timely to customers"> -->
-                <img src="index-page-sprite.png" alt="Girl delivering parcels timely to customers" />
+                <source srcset="EC_girl-01.webp" type="image/webp" alt="Girls delivering parcels timely to customers">
+                <source srcset="EC_girl-01.png" type="image/png" alt="Girls delivering parcels timely to customers">
               </picture>
               <figcaption>
                 <h4 class="figcaption-head" itemprop="name">On Time Delivery</h4>
@@ -194,9 +192,9 @@
           <div class="deg135">
               <figure>
                 <picture>
-                <!-- <source srcset="EC_girl-05.webp" type="image/webp" alt="100% female drivers for delivering parcels to customers">
-                  <source srcset="EC_girl-05.png" type="image/png" alt="100% female drivers for delivering parcels to customers"> -->
-                  <img src="index-page-sprite.png" alt="100% female drivers for delivering parcels to customers" />  
+                <source srcset="EC_girl-05.webp" type="image/webp" alt="100% female drivers for delivering parcels to customers">
+                  <source srcset="EC_girl-05.png" type="image/png" alt="100% female drivers for delivering parcels to customers">
+ 
                 </picture>
                 <figcaption>
                   <h4 class="figcaption-head"> <span style="font-size: 1.5rem;">100</span>% Female <br/> Drivers</h4>
@@ -210,9 +208,8 @@
           <div class="deg45">
           <figure>  
             <picture>
-            <!-- <source srcset="EC_girl-04.webp" type="image/webp">
-              <source srcset="EC_girl-04.png" type="image/png">   -->
-              <img src="index-page-sprite.png" alt="Healthy working environment as well as timely shifts that will suit both our customers as well as our girls." />
+            <source srcset="EC_girl-04.webp" type="image/webp">
+              <source srcset="EC_girl-04.png" type="image/png">  
             </picture>  
               
             <figcaption>
@@ -227,8 +224,7 @@
 
             <figure>
               <picture>
-            <!--   <source srcset="med-res.jpg"> -->
-                <img srcset="index-page-sprite.png" alt="Girls safely delivering the parcels to the customer" />  
+              <source srcset="med-res.jpg" alt="Girls safely delivering the parcels to the customer">
               </picture>    
               <figcaption>
                 <h4 class="figcaption-head">Highly Skilled</h4>
@@ -241,8 +237,7 @@
           <div class="deg225">
             <figure>
               <picture>
-              <!-- <source srcset="med-res.jpg"> -->
-                <img src="index-page-sprite.png" alt="Girls follow all the safety rules and regulations that were taught to them." />  
+              <source srcset="med-res.jpg" alt="Girls follow all the safety rules and regulations that were taught to them.">
               </picture>
                 
               <figcaption>
