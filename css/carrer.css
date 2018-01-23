@@ -312,15 +312,23 @@
   .carrer {
     margin-bottom: 60px; } }
 
-.field-btn, .submit-btn, .submit-btn:hover, .submit-btn:focus, .field-btn:hover, .submit-btn:hover, .field-btn:focus, .submit-btn:focus {
+.field-btn, .submit-btn,
+.submit-btn:hover,
+.submit-btn:focus,
+.field-btn:hover,
+.submit-btn:hover,
+.field-btn:focus,
+.submit-btn:focus {
   border-radius: 3rem;
   background-color: #4c82c9;
   height: 40px !important;
   font-family: "Playfair Display", serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem; }
 
-.submit-btn, .submit-btn:hover, .submit-btn:focus {
+.submit-btn,
+.submit-btn:hover,
+.submit-btn:focus {
   background-color: #fb8d2d;
   font-size: 1.2rem;
   font-weight: 700; }
@@ -463,8 +471,7 @@
 
 .collapsible-header {
   font-size: 1.3rem;
-  font-family: "Playfair Display", serif;
-  font-weight: 500; }
+  font-family: "Playfair Display", serif; }
 
 .collapsible-body > span:first-of-type {
   font-size: 1.2rem;

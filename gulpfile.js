@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
-const purify = require('gulp-purifycss');
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 
@@ -13,11 +12,6 @@ const autoprefixerOptions = {
     browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
 };
 
-gulp.task('pure', () => {
-    return gulp.src('./css/materialize.css')
-        .pipe(purify(['./index.html']))
-        .pipe(gulp.dest('./css/new/'));
-});
 
 gulp.task('sass', () => {
     return gulp
