@@ -1,0 +1,27 @@
+{
+  "name": "renew",
+  "version": "1.0.0",
+  "description": "evencargo build process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mayank",
+  "license": "ISC",
+  "devDependencies": {
+    "critical": "^1.1.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-shorthand": "^1.1.0",
+    "imagemin": "^5.3.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-webp": "^4.0.0",
+    "workbox-build": "^2.1.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
