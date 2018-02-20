@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
-          <img src="oye3.png" class="responsive-img" /><br />
+          <img src="./images/oye-foundation.png" class="responsive-img" /><br />
           <a href="http://oyefoundation.org" class="orange_footer" target="_blank" rel="noopener">Delhi OYE</a>
           <p class="grey-text text-lighten-4"><b>
             A step towards a gender inclusive society.</b>

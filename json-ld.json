@@ -1,11 +1,47 @@
-< script type = "application/ld+json" > {
+{
       "@context": "http://schema.org",
       "@type": "WebSite",
       "url": "https://www.example.com/",
       "potentialAction": {
-         "@type": "SearchAction",
-         "target": "https://query.example.com/search?q={search_term_string}",
-         "query-input": "required name=search_term_string"
+            "@type": "SearchAction",
+            "target": "https://query.example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
       }
-   } <
-   /script>
+} {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "https://evencargo.in",
+      "description": "At EvenCargo we believe in uplifting the barriers of unemployment through skill development of women to increase the participation of women workforce in labour market.",
+      "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "India",
+            "addressLocality": "Saket",
+            "addressRegion": "New Delhi",
+            "postalCode": "110030",
+            "streetAddress": "630 , Lane no 4, Westend Marg"
+      },
+      "sameAs": [
+            "https://www.facebook.com/evencargo/",
+            "https://plus.google.com/u/0/107836541202512523186",
+            "https://twitter.com/EvenCargo"
+      ],
+      "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "5"
+      },
+      "email": "contact@evencargo.in",
+      "logo": {
+            "@type": "ImageObject",
+            "url": "http://evencargo.in/logo.webp",
+            "width": "386",
+            "height": "60"
+      },
+      "founder": {
+            "@type": "Person",
+            "name": "Yogesh Kumar"
+      },
+      "foundingDate": "2013",
+      "name": "Even Cargo",
+      "telephone": "(+91)8588801095"
+}

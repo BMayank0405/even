@@ -6,7 +6,7 @@ this file contains css for all the front image and video which is to be shown as
   @supports(display: grid) {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: repeat(3, 0.5fr);
     justify-items: center;
     align-items: center;
     justify-content: center;
@@ -46,8 +46,8 @@ this file contains css for all the front image and video which is to be shown as
     word-spacing: 0.27em !important;
     font: {
       family: $heading;
-      weight: 700;
-      size: 5rem;
+      weight: 400;
+      size: 5.6rem;
       variant: small-caps;
     }
     @media screen and (max-width:800px) {
@@ -55,7 +55,7 @@ this file contains css for all the front image and video which is to be shown as
     }
     text-align: center;
     width: 100%;
-    transform: scaleY(1.5);
+    transform: scale(1.07, 1.3);
     color: $menu_hover;
   }
 }

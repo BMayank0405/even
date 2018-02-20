@@ -8,11 +8,10 @@
                   window.dataLayer = window.dataLayer || [];
 
                   function gtag() {
-                        dataLayer.push(arguments);
+                        dataLayer.push(arguments)
                   }
-                  gtag('js', new Date());
-
-                  gtag('config', 'UA-109029601-1');
+                  gtag("js", new Date);
+                  gtag("config", "UA-109029601-1");
             </script>
 
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -20,7 +19,7 @@
             <meta name="description" content="We work to attain gender parity through the empowerment of women by engaging them in professions that have been traditionally inaccessible to them"
             />
 
-            <meta property="og:image" content="logo.png" />
+            <meta property="og:image" content="./common/logo.png" />
             <meta property="og:title" content="India's first Women Only E-commerce logistics company | Even Cargo" />
             <meta property="og:type" content="website" />
             <meta property="og:description" content="India's first Women Only E-commerce logistics company" />
@@ -29,73 +28,29 @@
             <meta property="twitter:title" content="India's first Women Only E-commerce logistics company | Even Cargo" />
             <meta property="twitter:card" content="" />
             <meta property="twitter:description" content="India's first Women Only E-commerce logistics company" />
-            <meta property="twitter:image:src" content="logo.png" />
+            <meta property="twitter:image:src" content="./common/logo.png" />
 
-            <link rel="shortcut icon" href="favicon.ico">
-            <link rel="icon" type="image/png" href="favicon-72x72.png" sizes="72x72">
-            <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+            <link rel="shortcut icon" href="./common/favicons/favicon.ico">
+            <link rel="icon" type="image/png" href="./common/favicons/favicon-72x72.png" sizes="72x72">
+            <link rel="apple-touch-icon" sizes="76x76" href="./common/favicons/apple-touch-icon.png">
 
             <title>India's first Women Only E-commerce logistics company | Even Cargo</title>
-            <link rel="preconnect" href="//fonts.gstatic.com/">
-            <link rel="preconnect" href="www.youtube.com" />
 
-            <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" as="style"
-                  crossorigin="anonymous" />
-            <link href="./css/main.css" as="style" rel="preload" /> -->
-            <link rel="preload" href="">
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+            <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" as="style"
+                  crossorigin>
+
             <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" type="text/css" rel="stylesheet"
-                  media="screen,projection" crossorigin="crossorigin" />
+                  media="screen,projection" crossorigin>
+            <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:300" as="font" type="font/woff2"
+                  crossorigin>
+
+
+            <!--  <link href="./css/main.css" as="style" rel="preload" /> -->
             <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:300" rel="stylesheet" />
-
-
-
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             <link href="./css/common.css" type="text/css" rel="stylesheet" media="screen,projection" />
             <link href="./css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
-            <script type="application/ld+json">
-                  {
-                        "@context": "http://schema.org/",
-                        "@type": "Organization",
-                        "url": "https://evencargo.in",
-                        "description": "At EvenCargo we believe in uplifting the barriers of unemployment through skill development of women to increase the participation of women workforce in labour market.",
-                        "address": {
-                              "@type": "PostalAddress",
-                              "addressCountry": "India",
-                              "addressLocality": "Saket",
-                              "addressRegion": "New Delhi",
-                              "postalCode": "110030",
-                              "streetAddress": "630 , Lane no 4, Westend Marg"
-                        },
-                        "sameAs": [
-                              "https://www.facebook.com/evencargo/",
-                              "https://plus.google.com/u/0/107836541202512523186",
-                              "https://twitter.com/EvenCargo"
-                        ],
-                        "aggregateRating": {
-                              "@type": "AggregateRating",
-                              "ratingValue": "4.9",
-                              "ratingCount": "5"
-                        },
-                        "email": "contact@evencargo.in",
-                        "logo": {
-                              "@type": "ImageObject",
-                              "url": "http://evencargo.in/logo.webp",
-                              "width": "386",
-                              "height": "60"
-                        },
-                        "founder": {
-                              "@type": "Person",
-                              "name": "Yogesh Kumar"
-                        },
-                        "foundingDate": "2013",
-                        "name": "Even Cargo",
-                        "telephone": "(+91)8588801095"
-                  }
-            </script>
-
 
       </head>
 
@@ -110,35 +65,36 @@
                   </header>
 
                   <article class="background-slider" style="max-height:95vh !important;">
-                        <video loop="" muted="" preload="auto" poster="poster.jpg" class="responsive-video" autoplay="autoplay">
-                              <source src="vp9.webm" type="video/webm">
-                              <source src="vp9.mp4" type="video/mp4">
+                        <video loop="" muted="" preload="auto" poster="./images/index/poster.jpg" class="responsive-video" autoplay>
+                              <source src="" type="video/webm" media="(max-width:700px)">
+                              <source src="vp9.webm" type="video/webm" media="(min-width:701px)">
+                              <source src="" type="video/mp4" media="(max-width:700px)">
+                              <source src="vp9.mp4" type="video/mp4" media="(min-width:701px)">
+
 
                         </video>
                   </article>
 
-                  <?php
-        require_once './navbar.php';
-      ?>
-                        <!-- nav bar -->
+                  <article class="btm-partner">
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="" />
+                        </picture>
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="" />
+                        </picture>
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="" />
+                        </picture>
 
-                        <article class="btm-partner">
-                              <picture>
-                                    <img src="./img/aboutus/amazonhead.png" alt="" class="responsive-img" />
-                              </picture>
-                              <picture>
-                                    <img src="./img/aboutus/dbshead.png" alt="" class="responsive-img" />
-                              </picture>
-                              <picture>
-                                    <img src="./img/aboutus/delhioyehead.png" alt="" class="responsive-img" />
-                              </picture>
-
-                              <picture>
-                                    <img src="./img/aboutus/sifhead.png" alt="" class="responsive-img" />
-                              </picture>
-                              <picture>
-                                    <img src="./img/aboutus/tisshead.png" alt="" class="responsive-img" />
-                              </picture>
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="" />
+                        </picture>
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="" />
+                        </picture>
+                        <picture>
+                              <img width="130px" height="95px" src="" alt="">
+                        </picture>
 
             </section>
 
@@ -152,9 +108,9 @@
 
                         <div class="about-img">
                               <picture>
-                                    <source srcset="de2.webp" type="image/webp" class="responsive-img">
-                                    <source srcset="de2.png" type="image/png" class="responsive-img">
-                                    <img src="de2.png" class="responsive-img" alt="parcel delivery woman delivering parcel">
+                                    <source srcset="equality delivered.webp equality delivered 2x.webp" type="image/webp" class="responsive-img">
+                                    <source srcset="equality delivered.png equality delivered 2x.png" type="image/png" class="responsive-img">
+                                    <img src="equality delivered.png equality delivered 2x.png" class="responsive-img" alt="parcel delivery woman delivering parcel">
                               </picture>
 
                         </div>
@@ -249,7 +205,7 @@
                                                 <p class="figcaption-text">Set number of working hours helps in keeping the
                                                       <strong>morale of our girls</strong> always high. They are motivated and always
                                                       treat customers with a smile as none of them is overworked or exhausted.</p>
-                                                <p class="hid" role="button"=>
+                                                <p class="hid" role="button">
                                                       <i class="material-icons tiny">swap_vert</i>&nbsp;Collapse</p>
                                           </figcaption>
                                     </figure>
@@ -316,7 +272,7 @@
                                                       <strong>Even Cargo's Female delivery</strong> personnel ensures not just safe
                                                       delivery of the parcel but a safe and secure delivery experience for
                                                       the customer as well.</p>
-                                                <p class="hid" role="button"=>
+                                                <p class="hid" role="button">
                                                       <i class="material-icons tiny">swap_vert</i>&nbsp;Collapse</p>
                                           </figcaption>
                                     </figure>
@@ -469,18 +425,19 @@
                         </header>
 
                         <aside class="youtube-video">
-                              <iframe class="z-depth-4 iframe-1" src="#"></iframe>
-                              <iframe class="z-depth-4 iframe-2" src="#"></iframe>
-                              <iframe class="z-depth-4 iframe-3" src="#"></iframe>
-                              <iframe class="z-depth-4 iframe-4" src="#"></iframe>
+                              <iframe class="z-depth-4 iframe-1" src="" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                              <iframe class="z-depth-4 iframe-2" src="" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                              <iframe class="z-depth-4 iframe-3" src="" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                              <iframe class="z-depth-4 iframe-4" src="" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
                         </aside>
 
                         <div class="slideshow-container">
 
+                              <i class="material-icons medium arrow-left" role="button" onclick="plusSlides(-1);">keyboard_arrow_left</i>
                               <div class="mySlides fade">
                                     <div class="row">
                                           <div class="col s12 m6">
-                                                <div class="card z-depth-5">
+                                                <div class="card z-depth-5 hoverable">
                                                       <div class="card-image">
                                                             <img class="activator" src="img/htcrop2.jpg">
                                                       </div>
@@ -494,8 +451,7 @@
                                                             <h3>BREAKING INTO A MALE BASTION: DELIVERY GIRLS RIDE THEIR WAY TO
                                                                   FREEDOM
                                                             </h3>
-                                                            <a href="http://www.hindustantimes.com/delhi-news/breaking-into-male-bastion-delivery-girls-ride-their-way-to-freedom/story-HAcWxIyDzanhOMTiI6akQM.html"
-                                                                  target="_blank" rel="noopener" title="">
+                                                            <a href="http://bit.ly/2nUa6oX" target="_blank" rel="noopener" title="">
                                                                   <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                       </div>
                                                 </div>
@@ -506,12 +462,12 @@
                               <div class="mySlides fade">
                                     <div class="row">
                                           <div class="col s12 m6">
-                                                <div class="card z-depth-5">
+                                                <div class="card z-depth-5 hoverable">
                                                       <div class="card-image">
                                                             <img class="activator" src="img/bicrop.jpg" alt="Article covered by Hindustan times on Even Cargo">
                                                       </div>
                                                       <div class="card-content">
-                                                            <img class="activator" src="img/bi.png">
+                                                            <img class="activator" src="#1">
                                                       </div>
                                                       <div class="card-reveal">
                                                             <span class="card-title">
@@ -519,7 +475,7 @@
                                                             </span>
                                                             <h3>THIS DELHI BASED STARTUP IS GIVING 'MEN'S JOB' TO WOMEN BECAUSE
                                                                   IT'S ABOUT DAMN TIME</h3>
-                                                            <a href="http://beingindian.com/news/breaking-gender-stereotype/" title="" target="_blank" rel="noopener">
+                                                            <a href="http://bit.ly/2BQBcWu" title="" target="_blank" rel="noopener">
                                                                   <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                       </div>
                                                 </div>
@@ -530,7 +486,7 @@
                               <div class="mySlides fade">
                                     <div class="row">
                                           <div class="col s12 m6">
-                                                <div class="card z-depth-5">
+                                                <div class="card z-depth-5 hoverable">
                                                       <div class="card-image">
                                                             <img class="activator" src="img/makerscrop.jpg" alt="Article covered by Hindustan times on Even Cargo">
                                                       </div>
@@ -542,7 +498,7 @@
                                                                   <i class="material-icons right">close</i>
                                                             </span>
                                                             <h3>THIS DELIVERY COMPANY IN INDIA IS HIRING ONLY FEMALE DRIVERS</h3>
-                                                            <a href="http://www.makers.com/blog/delivery-company-india-hires-only-women" target="_blank" rel="noopener">
+                                                            <a href="http://aol.it/2gLBHGJ" target="_blank" rel="noopener">
                                                                   <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                       </div>
                                                 </div>
@@ -553,7 +509,7 @@
                               <div class="mySlides fade">
                                     <div class="row">
                                           <div class="col s12 m6">
-                                                <div class="card z-depth-5">
+                                                <div class="card z-depth-5 hoverable">
                                                       <div class="card-image">
                                                             <img class="activator" src="img/newyorker.jpg" alt="Article covered by Hindustan times on Even Cargo">
                                                       </div>
@@ -565,7 +521,7 @@
                                                                   <i class="material-icons right">close</i>
                                                             </span>
                                                             <h3> A DELIVERY COMPANY IN INDIA THAT HIRES ONLY WOMEN</h3>
-                                                            <a href="http://www.newyorker.com/business/currency/a-service-that-delivers-autonomy-to-women-in-india" target="_blank" rel="noopener">
+                                                            <a href="http://bit.ly/2gW0mbY" target="_blank" rel="noopener">
                                                                   <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                       </div>
                                                 </div>
@@ -576,7 +532,7 @@
                               <div class="mySlides fade">
                                     <div class="row">
                                           <div class="col s12 m6">
-                                                <div class="card z-depth-5">
+                                                <div class="card z-depth-5 hoverable">
                                                       <div class="card-image">
                                                             <img class="activator" src="./img/ndtv.jpg" alt="Article covered by Hindustan times on Even Cargo">
                                                       </div>
@@ -589,14 +545,14 @@
                                                             </span>
                                                             <h3>दिल्ली में हो चुकी है 'क्रांति' - अब स्कूटर चलाकर आती हैं लड़कियां
                                                                   घर-घर सामान पहुंचाने</h3>
-                                                            <a href="https://khabar.ndtv.com/news/zara-hatke/scooter-riding-delivery-girls-are-making-heads-turn-on-delhi-s-streets-1652893"
-                                                                  target="_blank" rel="noopener">
+                                                            <a href="http://bit.ly/2nQscZ2" target="_blank" rel="noopener">
                                                                   <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                       </div>
                                                 </div>
                                           </div>
                                     </div>
                               </div>
+                              <i class="material-icons medium arrow-right" onclick="plusSlides(1);">keyboard_arrow_right</i>
                         </div>
                   </article>
 
@@ -628,15 +584,13 @@
                   </article>
 
             </main>
-
-            <?php 
-  require_once './footer.php';
-  ?>
             <!--  Scripts-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
             <script src="js/init.js" async defer></script>
             <script src="./app.js" async defer></script>
+            <script>
+            </script>
       </body>
 
 </html>
