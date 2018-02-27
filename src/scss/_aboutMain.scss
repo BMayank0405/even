@@ -91,16 +91,16 @@
 			&>div {
 				font: {
 					size: 1.25rem;
-					weight: 700;
 					family: $heading;
+					weight: 700;
 				}
-				cursor:pointer;
+				cursor: pointer;
 				text-transform: uppercase;
 				color: $menu_color;
 				letter-spacing: 0.05em !important;
 				word-spacing: 0.2em !important;
 				padding: 0 15px;
-				@media screen and (max-width:375px) {
+				@media screen and (max-width: 375px) {
 					font-size: 1.2rem;
 				}
 			}
@@ -136,9 +136,9 @@
 		opacity: 0.8;
 		margin-bottom: 8px;
 		font: {
+			size: $text;
 			family: $heading;
 			weight: 700;
-			size: 1.4rem;
 		}
 	}
 	&>h5 {
@@ -148,9 +148,9 @@
 		word-spacing: 0.2em !important;
 		margin-top: 0;
 		font: {
+			size: 1rem;
 			family: $heading;
 			weight: 700;
-			size: 1rem;
 		}
 	}
 	&>p {
@@ -158,9 +158,9 @@
 		letter-spacing: 0.025em !important;
 		margin-right: 1rem;
 		font: {
+			size: 1.02rem;
 			family: $text_font;
 			weight: 300;
-			size: 1.02rem;
 		}
 	}
 }

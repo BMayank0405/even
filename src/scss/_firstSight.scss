@@ -42,21 +42,18 @@ this file contains css for all the front image and video which is to be shown as
   grid-column: 1;
   grid-row: 2 / span 1;
   &>h1 {
-    letter-spacing: 0.02em !important;
-    word-spacing: 0.27em !important;
+    letter-spacing: .02em !important;
+    word-spacing: .27em !important;
     font: {
+      size: 5.6rem;
       family: $heading;
       weight: 400;
-      size: 5.6rem;
       variant: small-caps;
-    }
-    @media screen and (max-width:800px) {
-      font-size: 2rem;
     }
     text-align: center;
     width: 100%;
     transform: scale(1.07, 1.3);
-    color: $menu_hover;
+    color: #fb8d2d;
   }
 }
 

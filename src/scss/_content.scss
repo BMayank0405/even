@@ -262,7 +262,11 @@
 		width: 140px;
 		height: 140px;
 	}
-	@media screen and (min-width:700px) and (max-width:1169px) {
+	@media screen and (min-width:701px) and (max-width:1169px) {
+		width: 130px;
+		height: 130px;
+	}
+	@media screen and (max-width:701px) {
 		width: 130px;
 		height: 130px;
 	}

@@ -20,9 +20,9 @@
             letter-spacing: 0.05em !important;
             word-spacing: 0.2em !important;
             font: {
-                family: $heading;
-                weight: bold;
                 size: 1.25rem;
+                weight: bold;
+                family: $heading;
             }
         }
         &:hover a {
@@ -112,11 +112,11 @@
     &>li>a {
         text-transform: uppercase;
         font: {
-            family: $heading;
-            weight: bold;
             size: 1.25rem;
+            weight: bold;
+            family: $heading;
         }
-        color:$menu_color;
+        color: $menu_color;
         cursor: pointer;
     }
 }

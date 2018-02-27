@@ -34,10 +34,8 @@
                   
                   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" type="text/css" rel="stylesheet"
                         media="screen,projection" crossorigin>
-                  <!-- <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:300" as="font" type="font/woff2" crossorigin> -->
+                  <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300" as="font" type="font/woff2" crossorigin>
 
-
-             <link href="./css/main.css" as="style" rel="preload" />
                   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300" rel="stylesheet" />
                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
                   <link href="./css/common.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -396,10 +394,8 @@
 
                               <div class="slideshow-container">
 
-                                    <i class="material-icons medium arrow-left" role="button" onclick="plusSlides(-1);">keyboard_arrow_left</i>
+                                    <a onclick="plusSlides(-1)" class="arrow-left" role="button"><i class="material-icons large">keyboard_arrow_left</i></a>
                                     <div class="mySlides fade">
-                                          <div class="row">
-                                                <div class="col s12 m6">
                                                       <div class="card z-depth-5 hoverable">
                                                             <div class="card-image">
                                                                   <img class="activator" src="./images/index/media/being-indian.jpeg" alt="Article covered by Being Indian on Even Cargo" width="296" height="252">
@@ -417,18 +413,14 @@
                                                                         <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                             </div>
                                                       </div>
-                                                </div>
-                                          </div>
                                     </div>
                                     <div class="mySlides fade">
-                                          <div class="row">
-                                                <div class="col s12 m6">
                                                       <div class="card z-depth-5 hoverable">
                                                             <div class="card-image">
-                                                                  <img class="activator" src="./images/index/media/hindustan-times.jpeg" alt="Article covered by Hindustan times on Even Cargo"  width="296" height="252">
+                                                                  <img class="activator" src="" alt="Article covered by Hindustan times on Even Cargo"  width="296" height="252">
                                                             </div>
                                                             <div class="card-content">
-                                                                  <img class="activator" src="./images/index/media/hindustan-times-logo.png" width="200" height="45" alt="Hindustan times logo">
+                                                                  <img class="activator" src="" width="200" height="45" alt="Hindustan times logo">
                                                             </div>
                                                             <div class="card-reveal">
                                                                   <span class="card-title">
@@ -441,21 +433,17 @@
                                                                         <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                             </div>
                                                       </div>
-                                                </div>
-                                          </div>
                                     </div>
 
                                     
 
                                     <div class="mySlides fade">
-                                          <div class="row">
-                                                <div class="col s12 m6">
                                                       <div class="card z-depth-5 hoverable">
                                                             <div class="card-image">
-                                                                  <img class="activator" src="./images/index/media/makers.jpeg" alt="Article covered by Makers on Even Cargo" width="296" height="252">
+                                                                  <img class="activator" src="" alt="Article covered by Makers on Even Cargo" width="296" height="252">
                                                             </div>
                                                             <div class="card-content">
-                                                                  <img class="activator" src="./images/index/media/makers-logo.png" width="200" height="45" alt="Makers logo">
+                                                                  <img class="activator" src="" width="200" height="45" alt="Makers logo">
                                                             </div>
                                                             <div class="card-reveal">
                                                                   <span class="card-title">
@@ -466,19 +454,15 @@
                                                                         <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                             </div>
                                                       </div>
-                                                </div>
-                                          </div>
                                     </div>
 
                                     <div class="mySlides fade">
-                                          <div class="row">
-                                                <div class="col s12 m6">
                                                       <div class="card z-depth-5 hoverable">
                                                             <div class="card-image">
-                                                                  <img class="activator" src="./images/index/media/newyorker.jpeg" alt="Article covered by NewYorker on Even Cargo" width="296" height="252">
+                                                                  <img class="activator" src="" alt="Article covered by NewYorker on Even Cargo" width="296" height="252">
                                                             </div>
                                                             <div class="card-content">
-                                                                  <img class="activator" src="./images/index/media/nytime-logo.png" width="200" height="45" alt="new yorker logo">
+                                                                  <img class="activator" src="" width="200" height="45" alt="new yorker logo">
                                                             </div>
                                                             <div class="card-reveal">
                                                                   <span class="card-title">
@@ -489,19 +473,15 @@
                                                                         <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                             </div>
                                                       </div>
-                                                </div>
-                                          </div>
                                     </div>
 
                                     <div class="mySlides fade">
-                                          <div class="row">
-                                                <div class="col s12 m6">
                                                       <div class="card z-depth-5 hoverable">
                                                             <div class="card-image">
-                                                                  <img class="activator" src="./images/index/media/ndtv.jpeg" alt="Article covered by NDTV India on Even Cargo" width="296" height="252">
+                                                                  <img class="activator" src="" alt="Article covered by NDTV India on Even Cargo" width="296" height="252">
                                                             </div>
                                                             <div class="card-content">
-                                                                  <img class="activator" src="./images/index/media/ndtvindia-logo.png" width="200" height="45" alt="ndtv India logo">
+                                                                  <img class="activator" src="" width="200" height="45" alt="ndtv India logo">
                                                             </div>
                                                             <div class="card-reveal">
                                                                   <span class="card-title">
@@ -513,11 +493,10 @@
                                                                         target="_blank" rel="noopener">
                                                                         <i class="material-icons tiny">launch</i>&nbsp;Read More</a>
                                                             </div>
-                                                      </div>
-                                                </div>
                                           </div>
                                     </div>
-                                    <i class="material-icons medium arrow-right" onclick="plusSlides(1);">keyboard_arrow_right</i>
+                                    <a  onclick="plusSlides(1)" class="arrow-right" role="button">
+                                    <i class="material-icons large arrow-right">keyboard_arrow_right</i></a>
                               </div>
                         </article>
 
@@ -528,22 +507,22 @@
                               </header>
                               <div class="carousel">
                                     <a class="carousel-item" href="#one!">
-                                          <img src="./images/index/partner/clovia.png" class="z-depth-5" alt="clovia logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="clovia logo" width="200" height="150">
                                     </a>
                                     <a class="carousel-item" href="#two!">
-                                          <img src="./images/index/partner/flyrobe.png" class="z-depth-5" alt="flyrobe logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="flyrobe logo" width="200" height="150">
                                     </a>
                                     <a class="carousel-item" href="#three!">
-                                          <img src="./images/index/partner/vajor.jpeg" class="z-depth-5" alt="vajor logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="vajor logo" width="200" height="150">
                                     </a>
                                     <a class="carousel-item" href="#four!">
-                                          <img src="./images/index/partner/dbs-foundation.jpg" class="z-depth-5" alt="dbs-foundation logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="dbs-foundation logo" width="200" height="150">
                                     </a>
                                     <a class="carousel-item" href="#five!">
-                                          <img src="./images/index/partner/singapore-international-foundation.png" class="z-depth-5" alt="singapore international foundation logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="singapore international foundation logo" width="200" height="150">
                                     </a>
                                     <a class="carousel-item" href="#six!">
-                                          <img src="./images/index/partner/tiss.jpeg" class="z-depth-5" alt="tiss logo" width="200" height="150">
+                                          <img src="" class="z-depth-5" alt="tiss logo" width="200" height="150">
                                     </a>
                               </div>
                         </article>
@@ -556,9 +535,8 @@
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
                   <script src="./js/init.js" async defer></script>
                   <script src="./js/app.js" async defer></script>
-                  <script>
-      
-
+                  <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV8S8IJdAPNUE0fF3LCremUcK_hXiaskA&callback=initMap">
                   </script>
             </body>
 

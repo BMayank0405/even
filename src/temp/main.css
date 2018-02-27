@@ -254,7 +254,15 @@
     width: 140px;
     height: 140px; } }
 
-@media screen and (min-width: 700px) and (max-width: 1169px) {
+@media screen and (min-width: 701px) and (max-width: 1169px) {
+  .iframe-1,
+  .iframe-2,
+  .iframe-3,
+  .iframe-4 {
+    width: 130px;
+    height: 130px; } }
+
+@media screen and (max-width: 701px) {
   .iframe-1,
   .iframe-2,
   .iframe-3,
@@ -348,9 +356,9 @@
   letter-spacing: 0.025em !important;
   word-spacing: 0.3em !important;
   text-align: justify;
+  font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 1.4rem; }
+  font-weight: 300; }
   @media screen and (max-width: 800px) {
     .about-text {
       margin-right: 20px;
@@ -369,9 +377,9 @@
     min-width: 100%;
     letter-spacing: 0.05em !important;
     word-spacing: 0.2em !important;
+    font-size: 1.4rem;
     font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-size: 1.4rem; }
+    font-weight: 700; }
     .about-text > span > a {
       min-width: 30%; }
     @media screen and (max-width: 800px) {
@@ -380,9 +388,9 @@
         min-width: 100%;
         letter-spacing: 0.05em !important;
         word-spacing: 0.2em !important;
+        font-size: 1.2rem;
         font-family: "Playfair Display", serif;
-        font-weight: 700;
-        font-size: 1.2rem; } }
+        font-weight: 700; } }
 
 .parent,
 .parent-2 {
@@ -430,6 +438,8 @@
     padding-bottom: 0; }
     .modal > .modal-content span {
       font-family: "Playfair Display", serif;
+      font-size: 1.4rem;
+      font-family: "Playfair Display", serif;
       font-size: 1.4rem; }
       @media screen and (max-width: 800px) {
         .modal > .modal-content span {
@@ -474,35 +484,18 @@ figure {
 
 .hid,
 .show {
-  font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
   cursor: pointer;
   color: #fb8d2d; }
 
 .mySlides {
-  display: none; }
-  .mySlides > .row {
-    margin-bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .mySlides > .row > .col {
-      margin: 0 auto !important; }
-      @media screen and (min-width: 700px) and (max-width: 780px) {
-        .mySlides > .row > .col.s12.m6 > .card > .card-image > img {
-          height: 260px !important; } }
-      @media screen and (min-width: 1170px) and (max-width: 1273px) {
-        .mySlides > .row > .col {
-          width: 78% !important; } }
-      @media screen and (min-width: 700px) and (max-width: 1169px) {
-        .mySlides > .row > .col {
-          width: 80% !important; } }
-      @media screen and (min-width: 1274px) {
-        .mySlides > .row > .col {
-          width: 75%; } }
-      @media screen and (max-width: 700px) {
-        .mySlides > .row > .col {
-          width: 200px !important; } }
+  display: none;
+  padding: 40px;
+  padding: 40px; }
+  @media screen and (max-width: 701px) {
+    .mySlides {
+      padding: 20px; } }
   .mySlides .card {
     cursor: pointer; }
     .mySlides .card > .card-content {
@@ -512,18 +505,18 @@ figure {
     .mySlides .card > .card-reveal {
       background-color: #dfe0e0; }
       .mySlides .card > .card-reveal > h3 {
-        font-size: 1.1rem;
-        font-family: "Playfair Display", serif;
+        font: 1.1rem "Playfair Display", serif;
         line-height: 150%;
         color: #4c82c9; }
       .mySlides .card > .card-reveal > a {
-        font-size: 1.2rem;
         font-family: "Raleway", sans-serif;
+        font-size: 1.2rem;
         color: #fb8d2d; }
 
 .arrow-right {
   cursor: pointer;
   justify-self: start;
+  color: #dfe0e0;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
@@ -535,6 +528,7 @@ figure {
 .arrow-left {
   cursor: pointer;
   justify-self: end;
+  color: #dfe0e0;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
@@ -546,7 +540,8 @@ figure {
 .slideshow-container {
   margin: auto;
   position: relative;
-  margin-top: 15px; }
+  margin-top: 15px;
+  max-width: 100vw; }
 
 /* Fading animation */
 .fade {
